@@ -1,4 +1,4 @@
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
-    uses: pite1222/zmk/.github/workflows/build-user-config.yml@feat/pointing-studio-v0.3
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
